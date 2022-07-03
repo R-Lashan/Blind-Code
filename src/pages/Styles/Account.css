@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@600&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topic{
+    color: #000;
+    font-size: 100px;
+    padding: 50px;
+    animation: topic 1s;
+}
+
+.underline{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: -50px;
+    animation: lin 1s;
+}
+
+@keyframes topic {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes lin {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.username{
+    margin-left: 50px;
+    margin-top: 50px;
+    animation: lin 1s;
+}
+
+.email{
+    margin-left: 50px;
+    margin-top: 30px;
+    animation: lin 1s;
+}
+
+.edit{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 50px;
+    animation: lin 1s;
+}
+
+.delete{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 50px;
+    animation: lin 1s;
+}

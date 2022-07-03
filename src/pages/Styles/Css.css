@@ -1,0 +1,64 @@
+.css-img{
+    width: 700px;
+    height: 400px;
+    margin-left: 50px;
+    animation: topic 1s;
+}
+
+.html-img{
+    width: 700px;
+    height: 450px;
+    margin-left: 0px;
+    animation: topic 1s;
+}
+
+.css-create-img{
+    width: 700px;
+    height: 400px;
+    margin-left: 0px;
+    animation: topic 1s;
+}
+
+.css-syntax{
+    width: 750px;
+    height: 300px;
+    margin-left: 50px;
+    animation: topic 1s;
+}
+
+.step-1{
+    margin-top: -50px;
+}
+
+.step-2{
+    margin-top: 0px;
+}
+
+.step-3{
+    margin-top: 0px;
+}
+
+.step-4{
+    margin-top: -100px;
+}
+
+.tuto{
+    padding-right: 50px
+}
+
+.browser-bg{
+    width: 500;
+    height: 200px;
+}
+
+.html-bg{
+    height: 400px;
+}
+
+.css-bg{
+    height: 300px;
+}
+
+.css-color{
+    height: 300px;
+}

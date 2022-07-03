@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inputs{
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    right: 22%;
+    top: 20%;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.inputs input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 40px;
+    outline: none;
+    padding: 12px;
+    position: relative;
+    left: 29%;
+    top: 10%;
+    border-radius: 10px;
+    border: none;
+}
+
+.regi-btn{
+    position: relative;
+    left: 43%;
+    top: 10%;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.word{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.msg1{
+    color: green;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    right: 56%;
+}
+
+.msg2{
+    color: red;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    right: 56%;
+}
+
+.msg3{
+    color: red;
+    position: absolute;
+    top: 42%;
+    text-align: center;
+    right: 52%;
+}
+
+.msg5{
+    color: red;
+    position: absolute;
+    top: 77%;
+    text-align: center;
+    right: 52%;
+}
+
+.msg6{
+    color: red;
+    position: absolute;
+    top: 77%;
+    text-align: center;
+    right: 28%;
+}

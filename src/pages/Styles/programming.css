@@ -1,0 +1,97 @@
+@import url('https://fonts.googleleapis.com/css2?family=Lato&display=swap');
+
+.heading{
+    padding: 50px;
+    font-family: 'Lato', sans-serif;
+    animation: topic 1s;
+}
+
+.para{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    animation: topic 1s;
+}
+
+Link{
+    text-decoration: none;
+}
+
+.html-box {
+    width: 250px;
+    background-color: silver;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 rgb(230, 70, 30);
+    transition: ease-out 0.3s;
+    animation: topic 1s;
+}
+
+.html-box:hover {
+    color: white;
+    box-shadow: inset 250px 0 0 0 rgb(230, 70, 30);
+}
+
+.html-text{
+    text-decoration: none;
+    padding: 60px;
+    color: #111;
+    margin-left: 30px;
+}
+
+.css-box {
+    width: 250px;
+    height: 150px;
+    background-color: silver;
+    margin-left: 350px;
+    margin-top: -18.5%;
+    margin-bottom: 50px;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 rgb(39, 172, 224);
+    transition: ease-out 0.3s;
+    animation: topic 1s;
+}
+
+.css-box:hover{
+    box-shadow: inset 250px 0 0 0 rgb(39, 172, 224);
+}
+
+.css-text{
+    padding: 60px;
+    color: #111;
+    margin-left: 30px;
+}
+
+.js-box {
+    width: 290px;
+    height: 150px;
+    background-color: silver;
+    margin-left: 650px;
+    margin-top: -16%;
+    border-radius: 40px;
+    box-shadow: inset 0 0 0 0 rgb(243, 210, 21);
+    transition: ease-out 0.3s;
+    animation: topic 1s;
+}
+
+.js-box:hover{
+    box-shadow: inset 290px 0 0 0 rgb(243, 210, 21);
+}
+
+.js-text{
+    padding: 60px;
+    color: #111;
+    margin-left: 30px;
+
+}
+
+.languages{
+    margin-left: 65px;
+    margin-top: -1%;
+    margin-bottom: 30px;
+    animation: topic 1s;
+}
+
+/* // "devDependencies": {
+    // } */

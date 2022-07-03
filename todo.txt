@@ -1,0 +1,56 @@
+Learn code project
+=================
+
+- Login & register page
+
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import './Styles/Account.css';
+
+function Account() {
+  var username = localStorage.getItem('username');
+  var email = localStorage.getItem('email');
+  
+  const [ body, setBody ] = useState('');
+
+  function signOut(){
+    localStorage.setItem('username', '');
+    localStorage.setItem('email','');
+    localStorage.setItem('password', '');
+    alert('You have Sign Out');
+  }
+
+  useEffect(() => {
+    if(localStorage !== ''){
+      setBody(
+        <>
+          <h1 className='topic'>Account</h1>
+          <div className='underline'></div>
+          <h3 className='username'>Username : {username}</h3>
+          <h3 className='email'>Email Address : {email}</h3>
+          <br />
+          <br />
+          <Link to='/'>
+            <button className='delete' onClick={signOut}>Sign Out</button>
+          </Link> 
+        </>
+      )
+    } else {
+      setBody(
+        <>
+          <p style={{marginLeft: '40.7%', position: 'absolute', top: '48%'}}>Please Sign In to have an account</p>
+          <Link to='/sign-in'>
+            <button style={{marginLeft: '47.3%', marginTop: '21%', width: '100px', height: '40px', border: 'none', outline: 'none', backgroundColor: 'black', color: 'white', borderRadius: '10px'}}>Sign In</button>
+          </Link>
+        </>
+      )
+    }
+  }, [])
+  return (
+    <div>
+      {body}
+    </div>
+  )
+}
+
+export default Account

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    margin-left: 50px;
+    margin-top: 25px;
+    animation: lin 1s;
+}
+
+.js-logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.abt{
+    margin-left: 50px;
+    animation: lin 1s;
+}

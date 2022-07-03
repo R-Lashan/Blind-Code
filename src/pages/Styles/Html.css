@@ -1,0 +1,19 @@
+.info{
+    margin-left: 50px;
+    animation: topic 1s;
+}
+li{
+    margin-bottom: 5px;
+    animation: topic 1s;
+}
+.html-img{
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    animation: topic 1s;
+}
+.steps{
+    margin-left: 50px;
+    margin-top: 54px;
+    animation: topic 1s;
+}
