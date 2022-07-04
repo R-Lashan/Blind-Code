@@ -4,10 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
 .bg-image{
     width: 1400px;
-    height: 525px;
+    height: 550px;
 }
 
 .learn-btn {
@@ -15,7 +14,8 @@
     width: 200px;
     height: 50px;
     position: absolute;
-    right: 40.5%;
+    top: 80%;
+    right: 42%;
     border: none;
     outline: none;
     font-size: 20px;
