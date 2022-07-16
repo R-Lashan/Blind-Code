@@ -25,7 +25,6 @@ function Navbar() {
                  <h5 className='text2'>{userName}</h5>              
             </Link>
             <Link to='/' style={{textDecoration: 'none'}}>
-                <h2 className='text'>Blind Code</h2>
             </Link>
         </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

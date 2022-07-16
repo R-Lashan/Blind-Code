@@ -8,8 +8,8 @@ import Html from './pages/Html';
 import Css from './pages/Css';
 import Js from './pages/JavaSricpt';
 import Register from './pages/Register';
-import Account from './pages/Account';
 import About from './pages/About';
+import HowTo from './pages/HowTo';
 
 function App() {
     useEffect(() => {
@@ -27,7 +27,7 @@ function App() {
             <Route path='/css'  element={<Css />}/><Route />
             <Route path='/javascript'  element={<Js />}/><Route />
             <Route path='/sign-in'  element={<Register />}/><Route />
-            <Route path='/howto' exact element={<Account />}/><Route />
+            <Route path='/howto' exact element={<HowTo />}/><Route />
             <Route path='/about' element={<About />}/><Route />
           </Routes>
       </Router>

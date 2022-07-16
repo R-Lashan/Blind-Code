@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Styles/Account.css';
 
-function Account() {
+function HowTo() {
   return (
     <div>
-      dsfds
+      How to
     </div>
   )
 }
 
-export default Account
+export default HowTo
